@@ -127,7 +127,7 @@ Zotero.IaPusher = {
         item.setField("extra", item.getField("extra") + "\nMemento: " + archivedUrl);
       }
       else {
-        item.setField("extra", archivedUrl);
+        item.setField("extra", "Memento: " + archivedUrl);
       }
       item.saveTx();
     },
